@@ -7,7 +7,7 @@ Virginia<-c(33,31,2)
 Duke<- c(33,26,7)
 Clemson<-c(32,23,9)
 
-#create intitital ranking
+#create intitial ranking
 BasicW<- function(ti,wi){
   ri<-(1+wi)/(2+ti) 
   return (ri)
